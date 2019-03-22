@@ -1,0 +1,504 @@
+@charset "UTF-8";
+body, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, p, input, select, textarea, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "微软雅黑" ，Arial; }
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+.four-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px; }
+  .four-title .title-left {
+    display: flex;
+    margin-left: 28px; }
+    .four-title .title-left h3 {
+      font-size: 20px;
+      color: #3e5569;
+      font-weight: 200;
+      padding: 18px 22px 18px 0;
+      border-right: 1px solid black; }
+    .four-title .title-left .left-small {
+      display: flex;
+      align-items: center;
+      margin-left: 25px; }
+      .four-title .title-left .left-small ul {
+        display: flex; }
+        .four-title .title-left .left-small ul li {
+          font-size: 18px;
+          color: #898ba3;
+          margin-right: 15px; }
+          .four-title .title-left .left-small ul li i {
+            color: #898ba3; }
+  .four-title .title-right {
+    margin-right: 15px; }
+    .four-title .title-right button {
+      width: 55px;
+      height: 55px;
+      border: none;
+      background: white;
+      border-radius: 25px;
+      position: relative; }
+      .four-title .title-right button i {
+        position: absolute;
+        left: 20px;
+        top: 20px; }
+
+.money {
+  display: flex;
+  justify-content: space-around;
+  margin: 109px 36px 0 36px; }
+  .money .money-box {
+    width: 23%;
+    height: 100%;
+    background: #2a2e31;
+    text-align: center;
+    padding: 86px 0; }
+    .money .money-box .money-text {
+      color: white;
+      margin: 0 86px; }
+      .money .money-box .money-text h5 {
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 16px;
+        text-transform: uppercase; }
+      .money .money-box .money-text h3 {
+        font-size: 83px;
+        font-weight: 200;
+        margin-top: 60px;
+        line-height: 83px; }
+      .money .money-box .money-text small {
+        font-size: 15px;
+        line-height: 15px;
+        margin-top: 32px;
+        display: inline-block; }
+      .money .money-box .money-text hr {
+        margin-top: 15px;
+        opacity: .3; }
+      .money .money-box .money-text p {
+        font-size: 15px;
+        margin-top: 28px;
+        line-height: 15px; }
+        .money .money-box .money-text p strong {
+          margin-right: 6px; }
+      .money .money-box .money-text a {
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        border: 1px solid white;
+        width: 100%;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 6px;
+        margin-top: 68px; }
+
+.row-box {
+  display: flex;
+  margin: 109px 36px 0 36px; }
+  .row-box .row-samll {
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box; }
+    .row-box .row-samll .row-text {
+      background: white;
+      text-align: center;
+      padding: 0 42px 33px 42px;
+      border: 1px solid #e5e5e5;
+      box-sizing: border-box; }
+      .row-box .row-samll .row-text h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #ff4c52;
+        font-weight: 200;
+        line-height: 20px;
+        padding-top: 53px; }
+      .row-box .row-samll .row-text p {
+        font-size: 15px;
+        color: #445569;
+        line-height: 24px;
+        padding-top: 25px; }
+      .row-box .row-samll .row-text h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        color: #445569;
+        padding-top: 25px;
+        font-weight: 200; }
+    .row-box .row-samll .yellow-text h2 {
+      color: #ffd600; }
+    .row-box .row-samll .green-text h2 {
+      color: #17b3a3; }
+    .row-box .row-samll .row-color {
+      background: #ff4c52;
+      color: white;
+      text-align: center;
+      padding: 25px 27px; }
+      .row-box .row-samll .row-color h3 {
+        font-size: 80px; }
+        .row-box .row-samll .row-color h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .row-box .row-samll .row-color h3 span {
+          display: block;
+          font-size: 15px; }
+      .row-box .row-samll .row-color a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px; }
+        .row-box .row-samll .row-color a:hover {
+          background: white;
+          opacity: .2;
+          border-radius: 20px;
+          color: black; }
+    .row-box .row-samll .yellow-color {
+      background: #ffd600; }
+    .row-box .row-samll .green-color {
+      background: #17b3a3; }
+  .row-box .row-big {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    top: -22px;
+    box-sizing: border-box; }
+    .row-box .row-big .big-text {
+      background: #0bb2d4;
+      text-align: center;
+      padding: 0 33px 28px 33px;
+      color: white; }
+      .row-box .row-big .big-text h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 20px;
+        padding-top: 62px; }
+      .row-box .row-big .big-text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 25px; }
+      .row-box .row-big .big-text h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        padding-top: 25px;
+        font-weight: 200; }
+    .row-box .row-big .big-color {
+      background: white;
+      color: #0bb2d4;
+      text-align: center;
+      padding: 50px 27px; }
+      .row-box .row-big .big-color h3 {
+        font-size: 80px; }
+        .row-box .row-big .big-color h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .row-box .row-big .big-color h3 span {
+          display: block;
+          font-size: 15px; }
+      .row-box .row-big .big-color a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        background: #0bb2d4;
+        border-radius: 20px; }
+
+.third-box {
+  display: flex;
+  margin: 156px 36px 0 36px; }
+  .third-box .third-small {
+    width: 33.3%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box; }
+    .third-box .third-small .third-inside {
+      padding: 80px 75px 77px 75px; }
+      .third-box .third-small .third-inside h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 20px;
+        color: #ff4c52; }
+      .third-box .third-small .third-inside p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 25px;
+        color: #445569; }
+      .third-box .third-small .third-inside h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        padding-top: 25px;
+        font-weight: 200;
+        color: #445569; }
+      .third-box .third-small .third-inside h3 {
+        font-size: 80px;
+        padding-top: 50px;
+        color: #ff4c52; }
+        .third-box .third-small .third-inside h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .third-box .third-small .third-inside h3 span {
+          display: block;
+          font-size: 15px;
+          font-weight: 200; }
+      .third-box .third-small .third-inside a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        background: #ff4c52;
+        border-radius: 20px; }
+    .third-box .third-small .third-green h2, .third-box .third-small .third-green h3 {
+      color: #17b3b8; }
+    .third-box .third-small .third-green a {
+      background: #17b3b8; }
+    .third-box .third-small .four-inside h2, .third-box .third-small .four-inside h3 {
+      color: #0bb2d4; }
+    .third-box .third-small .four-inside a {
+      background: #0bb2d4; }
+    .third-box .third-small .four-last h2, .third-box .third-small .four-last h3 {
+      color: #ff4c52; }
+    .third-box .third-small .four-last a {
+      background: #ff4c52; }
+  .third-box .third-big {
+    width: 33.3%;
+    height: 100%;
+    background: #0bb2d4;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -25px; }
+    .third-box .third-big .third-inbg {
+      padding: 104px 96px 96px 102px; }
+      .third-box .third-big .third-inbg h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 20px; }
+      .third-box .third-big .third-inbg p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 25px; }
+      .third-box .third-big .third-inbg h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        padding-top: 25px;
+        font-weight: 200; }
+      .third-box .third-big .third-inbg h3 {
+        font-size: 80px;
+        padding-top: 50px; }
+        .third-box .third-big .third-inbg h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .third-box .third-big .third-inbg h3 span {
+          display: block;
+          font-size: 15px;
+          font-weight: 200; }
+      .third-box .third-big .third-inbg a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        border-radius: 20px;
+        border: 1px solid white; }
+    .third-box .third-big .four-big {
+      background: #3e8ef7; }
+
+.five-box {
+  display: flex;
+  margin: 156px 36px 0 36px; }
+  .five-box .five-small {
+    width: 25%;
+    height: 100%;
+    background: #ff4c52;
+    color: white;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box; }
+    .five-box .five-small .five-inside {
+      padding: 80px 75px 77px 75px; }
+      .five-box .five-small .five-inside h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 20px; }
+      .five-box .five-small .five-inside p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 25px; }
+      .five-box .five-small .five-inside h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        padding-top: 25px;
+        font-weight: 200; }
+      .five-box .five-small .five-inside h3 {
+        font-size: 80px;
+        padding-top: 50px; }
+        .five-box .five-small .five-inside h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .five-box .five-small .five-inside h3 span {
+          display: block;
+          font-size: 15px;
+          font-weight: 200; }
+      .five-box .five-small .five-inside a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        border: 1px solid white; }
+  .five-box .five-yellow {
+    background: #ffd600;
+    color: white; }
+  .five-box .five-green {
+    background: #17b3a3;
+    color: white; }
+  .five-box .five-big {
+    width: 25%;
+    height: 100%;
+    background: white;
+    text-align: center;
+    color: #0bb2d4;
+    position: relative;
+    top: -25px;
+    border: 2px solid #0bb2d4;
+    box-sizing: border-box; }
+    .five-box .five-big .five-inbg {
+      padding: 104px 96px 96px 102px; }
+      .five-box .five-big .five-inbg h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        line-height: 20px; }
+      .five-box .five-big .five-inbg p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 25px; }
+      .five-box .five-big .five-inbg h4 {
+        font-size: 18px;
+        text-transform: inherit;
+        padding-top: 25px;
+        font-weight: 200; }
+      .five-box .five-big .five-inbg h3 {
+        font-size: 80px;
+        padding-top: 50px; }
+        .five-box .five-big .five-inbg h3 sup {
+          font-size: 35px;
+          vertical-align: super;
+          position: relative;
+          top: -15px; }
+        .five-box .five-big .five-inbg h3 span {
+          display: block;
+          font-size: 15px;
+          font-weight: 200; }
+      .five-box .five-big .five-inbg a {
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        line-height: 15px;
+        margin-top: 61px;
+        width: 100%;
+        height: 37px;
+        line-height: 37px;
+        border-radius: 20px;
+        background: #0bb2d4;
+        border: 1px solid #0bb2d4; }
+
+@media screen and (max-width: 980px) {
+  .money {
+    flex-direction: column; }
+    .money .money-box {
+      width: 100%;
+      margin-top: 30px; }
+
+  .row-box {
+    flex-direction: column; }
+    .row-box .row-samll {
+      width: 100%;
+      margin-top: 20px; }
+    .row-box .row-big {
+      width: 100%;
+      margin-top: 20px;
+      top: 0; }
+
+  .third-box {
+    flex-direction: column; }
+    .third-box .third-small {
+      width: 100%;
+      margin-top: 20px; }
+    .third-box .third-big {
+      width: 100%;
+      margin-top: 20px;
+      top: 0; }
+
+  .five-box {
+    flex-direction: column; }
+    .five-box .five-small {
+      width: 100%;
+      margin-top: 20px; }
+    .five-box .five-big {
+      width: 100%;
+      margin-top: 20px;
+      top: 0; } }
+@media screen and (max-width: 576px) {
+  section {
+    width: 100%; }
+    section .four-title {
+      width: 100%; }
+    section .money-box {
+      width: 100%; } }
+
+/*# sourceMappingURL=four.css.map */
